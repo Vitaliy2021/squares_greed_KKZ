@@ -1,0 +1,17 @@
+.square {
+   width: 100px;
+   height: 100px;
+}
+#s1 { background: red; }
+#s2 { background: black; }
+#s3 { background: green; }
+#s4 { background: yellow; }
+
+body
+ {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-temlate-rows: 1fr 1fr;
+   align-items: center;
+   justify-content: center;
+   }
